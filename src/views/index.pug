@@ -1,8 +1,7 @@
 extends ./layout
 
-- var data = require('../data/test.json')
-
 block content
+    - var data = require('../data/test.json')
     h1 Main page
     ul
         each item in data
